@@ -14,6 +14,7 @@ public class SimpleLogAnalyze{
         while((str = reader.readLine()) != null ){
         	System.out.println(str);
         }
+        reader.close();
 	}
 
 	public static void main(String[] args) throws IOException {
